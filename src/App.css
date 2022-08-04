@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+}
+.font-face-poppins-300{
+  font-family: Poppins-300;
+}
+.font-face-poppins-600{
+  font-family: Poppins-600;
+}
+.font-face-poppins-regular{
+  font-family: Poppins-Regular;
+}
+.App{
+  width: 550px;
+  height: 853px;
+}
+.header{
+  height: 70px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+
+}
+.header .logo{
+  padding-left: 40px;
+  max-width: 100px;
+}
+.heroGallery{
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+.heroText{
+  padding: 0px 0px 40px 40px;
+
+}
+.heroText p{
+  font-family: 'Poppins-300';
+  font-size: 16px;
+  line-height: 18px;
+  max-width: 320px;
+}
+.heroText h2{
+  font-family: 'Poppins-300';
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0px 0px 16px 0px;
+}
+.cardImage img{
+  height: 235px;
+  width: 176px;
+}
+.cardContainer{
+  padding: 0px 0px 20px 20px;
+  position: relative;
+}
+.cardContainer:first-child{
+  padding-left: 40px;
+}
+.cardContainer:last-child{
+  padding-right: 40px;
+}
+.cardContainer:last-child img{
+  border-radius: 9px;
+}
+.cardContainer p{
+  margin: 0px;
+  font-family: 'Poppins-300';
+  font-size: 12px;
+  line-height: 13px;
+}
+.starContainer p{
+  display: flex;
+  align-items: center;
+}
+.starContainer img{
+  height: 11px;
+  border-radius: 9px;
+  padding-right: 5px;
+}
+.starContainer{
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+.rating, .country{
+  padding-left: 5px;
+}
+.starContainer, .cardQuote, .cardPrice{
+  padding-top: 5px;
+}
+.rating p, .country p{
+  color: #918E9B;
+}
+.cardPrice p span{
+  font-weight: 600;
+}
+.mainCardContainer{
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.cardContainer:first-child .cardBadge{
+  left: 50px;
+}
+.cardBadge{
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  background-color: #FFFFFF;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
